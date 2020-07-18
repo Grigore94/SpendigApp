@@ -43,7 +43,7 @@ self.addEventListener("activate", function (evt) {
 
 self.addEventListener('fetch', function (evt) {
     // code to handle requests goes here
-    if (evt.request.url.includes('/api/')) {
+    if (evt.request.url.includes('/api')) {
         console.log('[Service Worker] Fetch (data', evt.request.url);
 
         evt.respondWith(
