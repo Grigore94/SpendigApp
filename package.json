@@ -1,0 +1,31 @@
+{
+  "name": "spendigapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node seeders/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grigore94/SpendigApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grigore94/SpendigApp/issues"
+  },
+  "homepage": "https://github.com/Grigore94/SpendigApp#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.16.4",
+    "glob": "^7.1.4",
+    "mongoose": "^5.5.8",
+    "morgan": "^1.10.0",
+    "node-modules": "^1.0.1",
+    "nodemon": "^2.0.4"
+  }
+}
