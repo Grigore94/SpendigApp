@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Grigore94/SpendigApp/issues"
   },
-  "homepage": "https://github.com/Grigore94/SpendigApp#readme",
+  "homepage": "https://github.com/Grigore94/SpendigApp",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.16.4",
